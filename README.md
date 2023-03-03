@@ -4,7 +4,7 @@
 
 You need to refactor the `UserService` class, specifically the `AddUser` method to add the following business rule:
 
-> "If the user's age is between 18 and 21, they must have double the standard credit limit."
+> "If the user's age is between 18 and 21, they must have half the standard credit limit."
 
 Assume that the code is sound in terms of business logic and only focus on applying our [design principles](https://dev.azure.com/microsoft/WebDefense/_wiki/wikis/Main/67247/design-principles).
 
