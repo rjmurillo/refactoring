@@ -18,7 +18,7 @@ namespace LegacyApp
 
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class UserCreditServiceClient : System.ServiceModel.ClientBase<IUserCreditService>
+    public partial class UserCreditServiceClient : System.ServiceModel.ClientBase<IUserCreditService>, IUserCreditService
     {
         public UserCreditServiceClient()
             :base()
