@@ -29,7 +29,7 @@ namespace LegacyApp
                 command.Parameters.Add(emailAddressParameter);
                 var hasCreditLimitParameter = new SqlParameter("@HasCreditLimit", SqlDbType.Bit) { Value = user.HasCreditLimit };
                 command.Parameters.Add(hasCreditLimitParameter);
-                var creditLimitParameter = new SqlParameter("@HasCreditLimit", SqlDbType.Int) { Value = user.CreditLimit };
+                var creditLimitParameter = new SqlParameter("@CreditLimit", SqlDbType.Int) { Value = user.CreditLimit };
                 command.Parameters.Add(creditLimitParameter);
                 var clientIdParameter = new SqlParameter("@ClientId", SqlDbType.Int) { Value = user.Client.Id };
                 command.Parameters.Add(clientIdParameter);
